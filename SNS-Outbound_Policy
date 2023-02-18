@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "0",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "connect.amazonaws.com"
+      },
+      "Action": [
+        "sns:Subscribe",
+        "sns:Publish"
+      ],
+      "Resource": "arn:aws:sns:us-east-1:427952992391:ChatMessageStreamingExamplesStack-smsOutboundMsgStreamingTopic10F46C89-X2FJ24X3dZEb"
+    }
+  ]
+}
